@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/concatString_19.sol": "StringCncatenation"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/concatString_19.sol": {
+			"keccak256": "0xb99f92a7512483d8cd2b1b53dd33dbdd577583605fd9ab3b04a0f187a55e7435",
+			"urls": [
+				"bzz-raw://949299547698019fd23c8973f64020981fe31a49e40119b98201d82dd3f17f1a",
+				"dweb:/ipfs/QmbnvuBTXP7i9KmyDGn3zR8cgS4PfZTtMcc4RubGgHPshE"
+			]
+		}
+	},
+	"version": 1
+}

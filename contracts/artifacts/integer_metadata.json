@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num2",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uncheck",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/integer_5.sol": "integer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/integer_5.sol": {
+			"keccak256": "0x736f8950463a809c032da1d5a02dc117bfd8a97575b7b496f2a74605b58a219a",
+			"urls": [
+				"bzz-raw://d8a2a7ee42148b238b3cbc8d2aa0ceffe352730562bbee206018f616646f27e0",
+				"dweb:/ipfs/QmPG81bNpKPJgwcA763yyXuaTu4bTzrmCsM9gPjzxdxJSN"
+			]
+		}
+	},
+	"version": 1
+}

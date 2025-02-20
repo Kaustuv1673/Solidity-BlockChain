@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ethSendByUser",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GlobalVariable_26.sol": "globalVariable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GlobalVariable_26.sol": {
+			"keccak256": "0x7746bf359495b061902c75e8ba69b54e14b813e00839429917fccdbd71d56434",
+			"urls": [
+				"bzz-raw://9c5562c2fedc42d8d32295a92dc043812b9e6e0a8ce22edf3b3024b2a20999c7",
+				"dweb:/ipfs/QmUGGcSzyz4FehcUmySdG4L4vMdn15aE2FgV3Zm2XdyDYh"
+			]
+		}
+	},
+	"version": 1
+}
