@@ -121,8 +121,11 @@
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
 			"methods": {},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -133,7 +136,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/30_Inheritance.sol": "Owner"
+			"contracts/1_Storage.sol": "Owner"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -147,12 +150,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/30_Inheritance.sol": {
-			"keccak256": "0xf925b42459fe07fc8448930d77d97a963a9ee1a414f0274959a67dba527e9ff2",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0x555af19f7bcc61dd7686ae5f16341f01acf276ae3cac55f0a6326f35147daffd",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://44da722a7c5a15f0dd6d37795009db53f86c9e960bd70af365f1e24a2cf639da",
-				"dweb:/ipfs/QmUfp57QJHj5hRLxwScFhJLTrcp8yWB9FwgJVUgnX9Agfs"
+				"bzz-raw://f2eb08c8287de3ed2d484b475517e025a024dc9ceb9a127333a8dcfb34d6fa5d",
+				"dweb:/ipfs/Qmc2pzzTBJZkzC19D4odSqjDajAZLREoKujgSfjQ8a991E"
 			]
 		}
 	},

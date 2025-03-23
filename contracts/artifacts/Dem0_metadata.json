@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/33_Polymorphism.sol": "Dem0"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/33_Polymorphism.sol": {
+			"keccak256": "0x4c4df331be8a0300da32061dc08e74c3a90d602f7928789d6da1bb684d667aca",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://42aa772504cc6489bfc0dcc0a56b34ff7a034bfb618317a1253d59b21185b58a",
+				"dweb:/ipfs/QmaPBST7yVSKfzvULmFaNSeQHYfKWmqofLSXeMkt51W5zg"
+			]
+		}
+	},
+	"version": 1
+}

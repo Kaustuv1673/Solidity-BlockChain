@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.29+commit.ab55807c"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,31 +18,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "add",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "div",
+				"name": "addition",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -66,31 +42,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "mul",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "sub",
+				"name": "subtraction",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -115,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/31_Abstract.sol": "Calculator"
+			"contracts/32_Interface.sol": "Calculator"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -129,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/31_Abstract.sol": {
-			"keccak256": "0xd323a640fdc1795fd1f9d0fba736bfca993c16f6af5f92dc846c1106d9c5e17b",
+		"contracts/32_Interface.sol": {
+			"keccak256": "0xf6578cb5a0558ab2a670434ce012c60e5e65b35008478fbd6bcecc92197ce11c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a17ee0cfb70e50523b1f9654e4aee02c38c39a63b0e8c3b0afa8f031b6004bf4",
-				"dweb:/ipfs/QmNf4B7rwpJxAWsFCfatuWprtWPdivZbFaSVD2nTqKUSFY"
+				"bzz-raw://342346fa257d1cf09dc551198f49fa6ea339b0b33673505bbcfc84e4257fa58e",
+				"dweb:/ipfs/QmbVsy9UNthaXDWgNJnZT5oeKsbb64ohcicdFaThF6yzqH"
 			]
 		}
 	},

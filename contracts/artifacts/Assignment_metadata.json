@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.29+commit.ab55807c"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,25 +9,28 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "record",
+				"name": "arr",
 				"outputs": [
 					{
-						"internalType": "address",
-						"name": "add",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "eth",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "time",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -36,9 +39,47 @@
 			},
 			{
 				"inputs": [],
-				"name": "sendEth",
+				"name": "countNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "replaceNumber",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -55,9 +96,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Assignment_27.sol": "Assignment"
+			"contracts/Array Assignment.sol": "Assignment"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -69,11 +110,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Assignment_27.sol": {
-			"keccak256": "0x1284a3d06d927aef439d00bdb7234952061f7af3f0cede906acc0f909062f2dc",
+		"contracts/Array Assignment.sol": {
+			"keccak256": "0x2dc8eded2ca971f5b9d8b036ea0d60da1ea6ff39caf1794501a9428dd675c33b",
 			"urls": [
-				"bzz-raw://307322dddacf010d10d980bd1032d396ef35b6747175b1e9116e62ae8eccdea2",
-				"dweb:/ipfs/QmTAVXWUKnTbAgbFYyrbEDh2iTjZX6dyrhhT8nqEZXHSrc"
+				"bzz-raw://89caedabf3627b9a8560894fd006ebf5ca96754efdc7d27c2fcf54e484112b05",
+				"dweb:/ipfs/QmcEh7kgj6Miy7sXbdCU89vyJBMdk1m624F7msABKeiJ5D"
 			]
 		}
 	},

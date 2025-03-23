@@ -6,29 +6,57 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "f1",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "",
+						"name": "amountSent",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"name": "sendEthInformation",
+				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "f3",
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "receiver",
+						"type": "address"
+					}
+				],
+				"name": "sendEth",
 				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Visibility_13.sol": "Demo"
+			"contracts/34_Events.sol": "Demo"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,11 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Visibility_13.sol": {
-			"keccak256": "0xed23df0572eebfe2d21193391be253591d979af6827abb68fa39caf74b1fb659",
+		"contracts/34_Events.sol": {
+			"keccak256": "0xb7035ba7a40558a47272906a6790baf6a8a09ac765e85150f89f93c495a2cee6",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://80d437bd8ef807f041962a7bcaacffd0e15ce715ae6b0330d25947a51e00067e",
-				"dweb:/ipfs/QmYVyuswmX8zBNbJ7Gt6JVzpt15EBEhn7kRnW23ZGwAu9P"
+				"bzz-raw://704063850f7e866769abf76b8ee0d46074008bde8ec880d58d2e180a8827af97",
+				"dweb:/ipfs/QmVybCVMPWAP5FKHA75p92MoJL7AjGGururx7XJchQaixu"
 			]
 		}
 	},

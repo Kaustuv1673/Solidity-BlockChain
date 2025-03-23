@@ -7,25 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "manager",
+				"name": "x",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "returnObj",
-				"outputs": [
-					{
-						"internalType": "contract Calculator",
-						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "otherContract"
+			"contracts/Visibility_13.sol": "otherContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +46,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
-			"keccak256": "0x10864d6736f6aed949928544f575c2b9b7f6676ab35389b9f5482289ba0d3057",
-			"license": "GPL-3.0",
+		"contracts/Visibility_13.sol": {
+			"keccak256": "0xed23df0572eebfe2d21193391be253591d979af6827abb68fa39caf74b1fb659",
 			"urls": [
-				"bzz-raw://2f961b11bed73afdee458616636b04bbdafc48177f57a54e158ce66043a0cc9d",
-				"dweb:/ipfs/QmaRqNJXW8SJQB3B98LVwfXShoNxNWSWKtibAvtihzQH5x"
+				"bzz-raw://80d437bd8ef807f041962a7bcaacffd0e15ce715ae6b0330d25947a51e00067e",
+				"dweb:/ipfs/QmYVyuswmX8zBNbJ7Gt6JVzpt15EBEhn7kRnW23ZGwAu9P"
 			]
 		}
 	},

@@ -38,7 +38,7 @@ contract Vote{
     }
 
     modifier isVotingOver(){
-        require(block.timestamp<endTime && stopVoting==false,"Voting is over")
+        require(block.timestamp<endTime && stopVoting==false,"Voting is over");
         _;
     }
 
@@ -97,9 +97,9 @@ contract Vote{
     function voterVerification(address _person) internal view returns(bool){
         for(uint i=1;i<nextVoterId;i++){
             if(voterDetails[i].voterAddress==_person)
-              return true;
+              return false;
         }
-        return false;
+        return true;
     }
 
     function voterList() public view returns(Voter[] memory){

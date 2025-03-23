@@ -49,10 +49,8 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"add(uint256,uint256)": "771602f7",
-			"div(uint256,uint256)": "a391c15b",
-			"mul(uint256,uint256)": "c8a4ac9c",
-			"sub(uint256,uint256)": "b67d77c5"
+			"addition(uint256,uint256)": "54f363a3",
+			"subtraction(uint256,uint256)": "900683d0"
 		}
 	},
 	"abi": [
@@ -69,31 +67,7 @@
 					"type": "uint256"
 				}
 			],
-			"name": "add",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "pure",
-			"type": "function"
-		},
-		{
-			"inputs": [
-				{
-					"internalType": "uint256",
-					"name": "a",
-					"type": "uint256"
-				},
-				{
-					"internalType": "uint256",
-					"name": "b",
-					"type": "uint256"
-				}
-			],
-			"name": "div",
+			"name": "addition",
 			"outputs": [
 				{
 					"internalType": "uint256",
@@ -117,31 +91,7 @@
 					"type": "uint256"
 				}
 			],
-			"name": "mul",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "pure",
-			"type": "function"
-		},
-		{
-			"inputs": [
-				{
-					"internalType": "uint256",
-					"name": "a",
-					"type": "uint256"
-				},
-				{
-					"internalType": "uint256",
-					"name": "b",
-					"type": "uint256"
-				}
-			],
-			"name": "sub",
+			"name": "subtraction",
 			"outputs": [
 				{
 					"internalType": "uint256",

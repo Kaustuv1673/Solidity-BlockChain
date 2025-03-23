@@ -261,10 +261,10 @@
 	},
 	"sources": {
 		"contracts/Voting.sol": {
-			"keccak256": "0xe2983c4276629e7d972385255ebc1b1946ab6c757547cf7dbc3cf15f0a61e133",
+			"keccak256": "0xbe953da088f5826527300e711e7ce97a72263adfd3238867c6e34a6639a38ba8",
 			"urls": [
-				"bzz-raw://eaee4b698fb3ad49e5bb081b7b99dafbf3049f2b9ef06ab48a1cce9600847bb5",
-				"dweb:/ipfs/QmNnTo85k9BuaMQuwiD3dh76ZbV2zPjSsYpHU3bj6LCVNr"
+				"bzz-raw://3921b0f4a9326eb01159b1aafe4031aa1f12bc728d338a5a754ffed1ff18863b",
+				"dweb:/ipfs/QmTxhEsAa5M2Pm5qfiRAMGLzN6U9gPwSng7S9Mvob3mKyk"
 			]
 		}
 	},
